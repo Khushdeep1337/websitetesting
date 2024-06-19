@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Kebab Case",
+    "unit": "px",
+    "framework": "html-css",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project": "portfolio site home",
+    "id": "6672569be57dbdd1394de4eb",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\Khushdeep.SKYBEAST\\Desktop\\personalProjects\\websitetesting\\src\\components",
+    "screensPath": "c:\\Users\\Khushdeep.SKYBEAST\\Desktop\\personalProjects\\websitetesting\\src\\pages"
+  }
+}

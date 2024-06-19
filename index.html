@@ -1,60 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Khushdeep's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .navbar {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-        }
-        .navbar a {
-            text-decoration: none;
-            color: black;
-        }
-        .content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 50px;
-        }
-        .about-section {
-            max-width: 50%;
-        }
-        .about-title {
-            font-size: 24px;
-            font-weight:bold;
-        }
-        .about-text {
-            margin-top:10px;
-        }
-        .social-links {
-            display:flex;
-            justify-content:center;
-        }
-    </style>
-</head>
-<body>
-    <div class="navbar">
-        <a href="#about">About</a>
-        <a href="#projects">My Projects</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <div class="content">
-        <div class="about-section">
-            <div class="about-title">A little about myself</div>
-            <p class="about-text">I'm a confident and friendly person with an impeccable work ethic...</p> <!-- Text truncated for brevity -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about">
+      <header class="khushdeeps-portfolio-parent">
+        <h1 class="khushdeeps-portfolio">Khushdeep’s Portfolio</h1>
+        <div class="main-content">
+          <div class="navigation-items-parent">
+            <div class="navigation-items">
+              <div class="about1">About</div>
+            </div>
+            <div class="navigation-items1">
+              <div class="my-projects">My Projects</div>
+            </div>
+            <div class="navigation-items2">
+              <div class="resume">Resume</div>
+            </div>
+            <button class="button">
+              <div class="contact">Contact</div>
+            </button>
+          </div>
         </div>
-        <img src="character-image.jpg" alt="Illustration of character with red skin and wings">
+      </header>
+      <section class="about-content-parent">
+        <div class="about-content">
+          <h1 class="a-little-about">A little about me</h1>
+          <h3 class="lemme-glaze-myself">lemme glaze myself a lil</h3>
+          <div class="paragraph">
+            I’m a confident and friendly person with an impeccable work ethic, I
+            flourish in team-oriented environments and am known to be the glue
+            of my friend groups, I excel in bringing people together, I'm a very
+            analytical and creative thinker, with a keen eye for detail and I’m
+            committed to continuously improving myself. I love meeting and
+            talking to new people and learning new things.
+          </div>
+        </div>
+        <img
+          class="image-1-icon"
+          loading="lazy"
+          alt=""
+          src="./public/image-1@2x.png"
+        />
+      </section>
+      <section class="divider-parent">
+        <div class="divider"></div>
+        <div class="projects-content">
+          <div class="project-link-content-wrapper">
+            <div class="project-link-content">
+              <h3 class="httpskhushdeep1337githubi">
+                https://khushdeep1337.github.io/websitetesting/
+              </h3>
+              <div class="link-icons">
+                <img
+                  class="buttons-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/buttons--icon@2x.png"
+                />
+
+                <img
+                  class="image-2-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/image-2@2x.png"
+                />
+
+                <img
+                  class="buttons-icon1"
+                  alt=""
+                  src="./public/buttons--icon-1@2x.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="links-list">
+            <div class="my-links">My links</div>
+            <a
+              class="linkedin"
+              href="https://www.linkedin.com/in/khushdeepbrar/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              class="github"
+              href="https://github.com/Khushdeep1337"
+              target="_blank"
+              >Github</a
+            >
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="social-links">
-        <a href="https://www.linkedin.com/in/khushdeep/">LinkedIn</a>
-        <a href="https://github.com/khushdeep1337">Github</a>
-        <a href="https://khushdeep1337.github.io/websitetesting/">Website</a>
-    </div>
-</body>
+  </body>
 </html>
