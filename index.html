@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Basic Website Testing</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="main.js"></script>
-    </head>
-    <body>
-        <h1>Welcome!</h1>
-        <p>This is the first website created by Khushdeep Brar.</p>
-    </body>
+<head>
+    <title>Khushdeep's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .about-section {
+            max-width: 50%;
+        }
+        .about-title {
+            font-size: 24px;
+            font-weight:bold;
+        }
+        .about-text {
+            margin-top:10px;
+        }
+        .social-links {
+            display:flex;
+            justify-content:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">My Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="content">
+        <div class="about-section">
+            <div class="about-title">A little about myself</div>
+            <p class="about-text">I'm a confident and friendly person with an impeccable work ethic...</p> <!-- Text truncated for brevity -->
+        </div>
+        <img src="character-image.jpg" alt="Illustration of character with red skin and wings">
+    </div>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/khushdeep/">LinkedIn</a>
+        <a href="https://github.com/khushdeep1337">Github</a>
+        <a href="https://khushdeep1337.github.io/websitetesting/">Website</a>
+    </div>
+</body>
 </html>
