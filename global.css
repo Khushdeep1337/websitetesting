@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --small-text: Inter;
+
+  /* font sizes */
+  --small-text-size: 16px;
+  --subheading-size: 24px;
+  --font-size-lgi: 19px;
+  --body-text-size: 20px;
+  --title-size: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray-100: #454545;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-2xs: 11px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+
+  /* Effects */
+  --button-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
