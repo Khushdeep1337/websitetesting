@@ -270,6 +270,16 @@
   letter-spacing: normal;
   font-size: var(--title-size);
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.resume-container {
+  margin-left: auto;
+}
 @media screen and (max-width: 1200px) {
   .navigation {
     display: none;
