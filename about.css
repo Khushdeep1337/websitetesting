@@ -277,17 +277,6 @@ body {
   height: 100vh;
 }
 
-.resume-container {
-  margin-left: auto;
-}
-.resume-iframe {
-  position: absolute;
-  top: 50%; /* Adjust this value to move it up or down */
-  right: 0; /* This will align it to the right */
-  transform: translateY(-50%); /* This will center it vertically */
-  width: 60%; /* Adjust this value to change the width */
-  height: 70%; /* Adjust this value to change the height */
-}
 @media screen and (max-width: 1200px) {
   .navigation {
     display: none;
