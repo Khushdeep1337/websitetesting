@@ -18,10 +18,16 @@
   
         .pdf-container {
           position: absolute;
-          top: 40%; /* Center vertically  changed from 50*/
-          left: 50%; /* Center horizontally changed from 80*/
-          transform: translate(-50%, -50%); /* Centering trick */
+          top: 297px; /* Set Y position */
+          left: 985px; /* Set X position */
+          width: 644px; /* Set width */
+          height: 658px; /* Set height */
+          padding: 0px 543.08px 641px 0px; /* Set padding */
           z-index: 100; /* Ensure it's above other content */
+          display: flex; /* Set display to flex */
+          flex-direction: column; /* Set flex direction to column */
+          align-items: center; /* Center items horizontally */
+          flex-shrink: 0; /* Prevent flex items from shrinking */
         }
   
         .pdf-object {
@@ -30,7 +36,7 @@
           height: 1000px;
           width: 800px; /* Set width to 100%  this line to*/ 
           height: auto; /* Set height to auto */
-          max-height: 90vh; /* Set max-height to 90vh or adjust as needed */
+          /* max-height: 90vh; Set max-height to 90vh or adjust as needed */
           overflow: auto; /* Add overflow auto to enable scroll if needed  this line maybe remove*/
         }
       </style>
