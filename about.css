@@ -50,14 +50,14 @@
   justify-content: flex-start;
   padding: var(--padding-2xs) 0 0;
 }
-.contact1 {
+.contact {
   position: relative;
   font-size: var(--small-text-size);
   text-decoration: underline;
   line-height: 150%;
   font-weight: 500;
   font-family: var(--small-text);
-  color: var(--color-white);
+  color: var(--color-white) !important;
   text-align: left;
   display: inline-block;
   min-width: 62px;
