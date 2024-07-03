@@ -39,9 +39,6 @@ body {
   --space-400: 16px;
   --space-200: 8px;
   --space-300: 12px;
-  --spacing-xs: 8px;
-  --spacing-s: 24px;
-  --spacing-m: 48px;
 
   /* Gaps */
   --gap-9xl: 28px;
@@ -69,9 +66,12 @@ body {
   --padding-5xl: 24px;
   --padding-2xs: 11px;
   --padding-base: 16px;
+  --padding-xl: 20px;
   --padding-xs: 12px;
   --padding-3xs: 10px;
   --padding-mini: 15px;
+  --padding-45xl: 64px;
+  --padding-4xl: 23px;
 
   /* Border radiuses */
   --br-9xs: 4px;
