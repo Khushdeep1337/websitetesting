@@ -21,7 +21,8 @@ body {
   --color-darkslategray-100: #454545;
   --color-darkslategray-200: #333;
   --color-black: #000;
-  --color-gainsboro: #e6e6e6;
+  --color-gainsboro-100: #e6e6e6;
+  --color-gainsboro-200: #e0e0e0;
   --color-gray: #828282;
 
   /* Gaps */
@@ -34,6 +35,8 @@ body {
   --gap-25xl: 44px;
   --gap-3xl: 22px;
   --gap-5xs: 8px;
+  --gap-95xl: 114px;
+  --gap-38xl: 57px;
 
   /* Paddings */
   --padding-15xl: 34px;
@@ -45,6 +48,9 @@ body {
   --padding-sm: 14px;
   --padding-5xl: 24px;
   --padding-2xs: 11px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-mini: 15px;
 
   /* Border radiuses */
   --br-9xs: 4px;
