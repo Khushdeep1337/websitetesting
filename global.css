@@ -17,13 +17,31 @@ body {
   --font-size-32xl: 51px;
 
   /* Colors */
-  --color-white: #fff;
+  --background-default-default: #fff;
   --color-darkslategray-100: #454545;
   --color-darkslategray-200: #333;
+  --text-neutral-default: #303030;
   --color-black: #000;
   --color-gainsboro-100: #e6e6e6;
+  --background-neutral-tertiary: #e3e3e3;
   --color-gainsboro-200: #e0e0e0;
+  --border-default-default: #d9d9d9;
   --color-gray: #828282;
+  --border-neutral-secondary: #767676;
+  --text-default-secondary: #757575;
+  --text-default-default: #1e1e1e;
+
+  /* Spacing */
+  --space-1200: 48px;
+  --space-1600: 64px;
+  --space-600: 24px;
+  --radius-200: 8px;
+  --space-400: 16px;
+  --space-200: 8px;
+  --space-300: 12px;
+  --spacing-xs: 8px;
+  --spacing-s: 24px;
+  --spacing-m: 48px;
 
   /* Gaps */
   --gap-9xl: 28px;
@@ -37,6 +55,8 @@ body {
   --gap-5xs: 8px;
   --gap-95xl: 114px;
   --gap-38xl: 57px;
+  --gap-base: 16px;
+  --gap-29xl: 48px;
 
   /* Paddings */
   --padding-15xl: 34px;
@@ -49,6 +69,7 @@ body {
   --padding-5xl: 24px;
   --padding-2xs: 11px;
   --padding-base: 16px;
+  --padding-xs: 12px;
   --padding-3xs: 10px;
   --padding-mini: 15px;
 
