@@ -107,6 +107,7 @@
   box-sizing: border-box;
   max-width: 100%;
   font-size: var(--body-text-size);
+  margin-right: 5%;
 }
 .divider3,
 .frame-header {
