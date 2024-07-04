@@ -103,7 +103,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20%;
+  padding-top: 40%;
   gap: var(--gap-xl);
   text-align: left;
   font-size: var(--title-size);
