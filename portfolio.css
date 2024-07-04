@@ -74,13 +74,13 @@
   display: inline-block;
   min-width: 62px;
 }
-.button4,
+.button,
 .portfolio-navigation {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
-.button4 {
+.button {
   cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-5xl);
@@ -89,7 +89,7 @@
   border-radius: var(--br-5xs);
   justify-content: flex-start;
 }
-.button4:hover {
+.button:hover {
   background-color: var(--color-darkslategray-200);
 }
 .portfolio-navigation {
@@ -107,7 +107,7 @@
   box-sizing: border-box;
   max-width: 100%;
   font-size: var(--body-text-size);
-  margin-right: 5%;
+  margin-right: -36%;
 }
 .divider3,
 .frame-header {
@@ -1169,6 +1169,7 @@
   gap: var(--gap-5xl);
   font-size: var(--small-text-size);
   color: var(--color-darkslategray-100);
+  margin-right: -36.2%;
 }
 .project-footer {
   width: 1300px;
