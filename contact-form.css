@@ -69,6 +69,7 @@
   align-items: flex-start;
 }
 .button {
+  color: white;
   cursor: pointer;
   border: 0;
   padding: var(--padding-sm) var(--padding-5xl);
