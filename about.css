@@ -103,6 +103,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 40%;
   gap: var(--gap-xl);
   text-align: left;
   font-size: var(--title-size);
@@ -142,6 +143,8 @@
 .divider1,
 .resume2 {
   box-sizing: border-box;
+  padding-bottom: 20%;
+  padding-right: 10%;
 }
 .resume2 {
   width: 624px;
